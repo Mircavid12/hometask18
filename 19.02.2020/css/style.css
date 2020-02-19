@@ -1,0 +1,216 @@
+.mynav{
+    height: 72px;
+}
+
+.mylogo{
+    padding-left: 13px;
+}
+
+#intro{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px; 
+    background-position: center center;
+}
+
+ul li{
+    padding-right: 10px;
+
+}
+
+ul li a{
+    font-weight: bold;
+
+}
+
+.navbtn{
+    letter-spacing: 4px;
+    border-radius: 7px;
+    height: 40px;
+    width: 170px;
+    font-size: .75rem;
+    font-weight: bolder;
+    background-color: #4E66F8;
+}
+
+.search-input{
+    height: 35px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+
+.best-holiday{
+    color: #e83e8c !important;
+    letter-spacing: 7px;
+    font-weight: bold;
+    margin-top: 130px;
+}
+#intro h1{
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.fixedbtn{
+    background-color: blue;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 65px;
+    height: 52px;
+    position: fixed;
+    right: 0;
+    top: 20%;
+}
+
+.fixedbtn i{
+    font-size: 27px;
+    color: white;
+}
+
+.introform{
+    width: 870px;
+    margin-top: 5%;
+    position: relative;
+}
+
+.introform input{
+    height: 50px;
+}
+
+.intro-searchbtn{
+    background-color: #4E66F8;
+    border: 4px solid white;
+    position: absolute;
+    right: 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    letter-spacing: 4px;
+    font-size: .85rem;
+}
+
+#booking{
+    padding: 110px 0;
+    background: #f8f9fa !important;
+}
+
+.booking-head p{
+    color: #e83e8c;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 1.02rem;
+}
+
+.booking-head h2{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.booking-card1 i{
+    color: #4E66F8;
+    font-size: 2.1rem;
+    line-height: 65px;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(220, 225, 255);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.booking-card2 i{
+    color: #4E66F8;
+    font-size: 2.1rem;
+    line-height: 65px;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(220, 225, 255);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.booking-card3 i{
+    color: #4E66F8;
+    font-size: 2.1rem;
+    line-height: 65px;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(220, 225, 255);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#booking h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.booking-card1 p{
+    color: #868e96 !important;
+    font-size: 1.11rem;
+    font-family: sans-serif;
+    padding-top: 7px;
+}
+.booking-card2 p{
+    color: #868e96 !important;
+    font-size: 1.11rem;
+    font-family: sans-serif;
+    padding-top: 7px;
+}
+.booking-card3 p{
+    color: #868e96 !important;
+    font-size: 1.11rem;
+    font-family: sans-serif;
+    padding-top: 7px;
+}
+
+#our-guides{
+    padding: 110px 0;
+}
+
+.our-guideshead p{
+    color: #4E66F8 !important;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.our-guideshead h3{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2.3rem;
+}
+
+.col-lg-2 img{
+    max-width: 100%;  
+}
+.our-guidescard{
+    margin-top: 60px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.our-guidescard h3{
+    position: absolute;
+    top: 69%;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.our-guidescard p{
+    position: absolute;
+    top: 75%;
+    color: white;
+    padding: 13px 20px;
+    font-size: 15px;
+}
+
+.our-guidescard:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+
